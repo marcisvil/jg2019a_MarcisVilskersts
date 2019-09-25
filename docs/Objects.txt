@@ -1,0 +1,23 @@
+Objektts: Ūdens
+
+	Stāvoklis : blīvums, Ph
+	Uzvedība  : sasalt, tek
+
+Objektts: Durvis
+
+	Stāvoklis : krāsa, materiāls
+	Uzvedība  : aizvērtas, atvērtas
+
+Objektts: Cilvēks
+
+	Stāvoklis : vārds, uzvārds
+	Uzvedība  : runā, dzer, ēd
+
+Objektts: Projektors
+
+	Stāvoklis : Izšķirtspēja, vadu veidi (ievadei)
+	Uzvedība  : Projecēt informāciju, ieslēgts
+
+Objektts: Dators
+	Stāvoklis : ražotājs, paramatri
+	Uzvedība  : atvērts(portatīvais), uzlādēts
