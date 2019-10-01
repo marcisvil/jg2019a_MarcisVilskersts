@@ -21,3 +21,6 @@ Objektts: Projektors
 Objektts: Dators
 	Stāvoklis : ražotājs, paramatri
 	Uzvedība  : atvērts(portatīvais), uzlādēts
+
+
+//Ok
