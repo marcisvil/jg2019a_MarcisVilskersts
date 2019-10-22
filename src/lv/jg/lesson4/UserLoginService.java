@@ -2,19 +2,21 @@ package lv.jg.lesson4;
 
 public class UserLoginService {
 
-    public void login(String inputPassword, User user) {
+    public String login(String inputPassword, User user) {
 
         if (user.blocked == true) {
-            System.out.println("Your login is blocked");
+            return "Your login is blocked";
         } else if (user.getPassword().equals(inputPassword)) {
-            System.out.println("Login successful");
+            return "Login successful";
         } else if (user.getLoginsAttemtsLeft() < 0) {
-            System.out.println("Your login is blocked");
+
             user.block();
+            return "Your login is blocked";
         } else {
-            System.out.println("Wrong password");
+
             user.removeAttemt();
             verify(user);
+            return "Wrong password";
         }
     }
 
