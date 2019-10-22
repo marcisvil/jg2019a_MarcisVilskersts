@@ -1,6 +1,9 @@
 package lv.jg.lesson3;
 
+//Ok
 public class Car {
+
+    //klases laukiem jābūt "private"
     String color;
     String manufacturer;
     int year;

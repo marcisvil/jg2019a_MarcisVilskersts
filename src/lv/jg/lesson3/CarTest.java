@@ -1,5 +1,7 @@
 package lv.jg.lesson3;
 
+//OK
+//lietojam "ctrl + alt + l"
 public class CarTest {
     public static void main(String[] args) {
 

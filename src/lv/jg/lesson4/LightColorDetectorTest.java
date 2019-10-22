@@ -1,5 +1,6 @@
 package lv.jg.lesson4;
 
+//OK
 public class LightColorDetectorTest {
 
     public void test() {

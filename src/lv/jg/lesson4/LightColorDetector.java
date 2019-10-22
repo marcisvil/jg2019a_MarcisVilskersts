@@ -21,7 +21,7 @@ public class LightColorDetector {
             return "This wavelength is too long for visible light";
         }
     }
-
+    //šeit main metode nav neieciešama
     public static void main(String[] args) {
         LightColorDetector lightColorDetector = new LightColorDetector();
 

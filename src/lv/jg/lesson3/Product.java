@@ -1,5 +1,7 @@
 package lv.jg.lesson3;
 
+//Ok
+//lietojam "ctrl + alt + l"
 public class Product {
 
     String name;
@@ -34,6 +36,7 @@ public class Product {
         return regularPrice*((100-discount)/100);
     }
 
+    //aizkomentēts kods ir jādzēš, tādu glabāt nevajag
    // public static void printInformation(Product product){
 
   //    System.out.println(product.getName());
