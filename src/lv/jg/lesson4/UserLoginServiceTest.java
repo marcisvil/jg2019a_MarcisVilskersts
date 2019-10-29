@@ -10,7 +10,6 @@ public class UserLoginServiceTest {
         String expectedResult = "Login successful";
         String actualResult = victim.login("hiddenWord", loginVictim);
 
-
         check(expectedResult, actualResult);
     }
 

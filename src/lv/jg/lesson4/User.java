@@ -2,9 +2,9 @@ package lv.jg.lesson4;
 
 public class User {
 
-    String login;
-    String password;
-    int loginAtemtsLeft;
+    private String login;
+    private String password;
+    private int loginAtemtsLeft;
     boolean blocked;
 
     public User(String login, String password) {
