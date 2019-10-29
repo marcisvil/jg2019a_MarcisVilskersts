@@ -1,5 +1,6 @@
 package lv.jg.lesson3;
 
+//Ok
 public class TestProduct {
     public static void main(String[] args) {
         Product product = new Product();
@@ -9,6 +10,7 @@ public class TestProduct {
         product.setRegularPrice(23.20);
         product.setDiscount(50);
 
+        //šai metodei ir jābūt pašā objektā
         printInformation(product);
 
 

@@ -1,8 +1,9 @@
 package lv.jg.lesson4;
 
-
+//Ok
 public class Stock {
 
+    //klases laukiem ir jābūt "private"
     String companyName;
     double currentValue;
     double minValue;
@@ -15,7 +16,7 @@ public class Stock {
         this.maxValue = currentValue;
     }
 
-
+//lieka metode - nav izmantota
     public String getCompanyName() {
         return this.companyName;
     }
@@ -49,6 +50,7 @@ public class Stock {
         System.out.println("Today's max value   : " + getMaxValue());
     }
 
+    //šai main metodei nav jābūt šeit
     public static void main(String[] args) {
         Stock stock = new Stock("Latvenergo", 150.1);
 

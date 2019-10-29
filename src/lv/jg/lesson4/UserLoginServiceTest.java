@@ -1,6 +1,6 @@
 package lv.jg.lesson4;
 
-
+//Ok
 public class UserLoginServiceTest {
 
     public void test() {

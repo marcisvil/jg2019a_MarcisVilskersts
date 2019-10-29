@@ -1,10 +1,11 @@
 package lv.jg.lesson4;
 
+//OK
 public class UserLoginService {
 
     public String login(String inputPassword, User user) {
 
-        if (user.blocked == true) {
+        if (user.blocked == true) { //tā kā "user.blocked" ir booleam tipa, tad pietiek tik ar "if (user.blocked)"
             return "Your login is blocked";
         } else if (user.getPassword().equals(inputPassword)) {
             return "Login successful";
@@ -26,6 +27,7 @@ public class UserLoginService {
         }
     }
 
+    //šeit nav jābūt šai metodei
     public static void main(String[] args) {
 
         UserLoginService userLoginService = new UserLoginService();
