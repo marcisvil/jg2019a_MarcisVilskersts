@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Book {
 
+    //klases laukiem ir jābūt iekapsulētiem - private
     String author;
     String title;
     int pageCount;

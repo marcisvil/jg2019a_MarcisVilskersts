@@ -3,16 +3,10 @@ package lv.jg.lesson4;
 //Ok
 public class User {
 
-<<<<<<< HEAD
-    private String login;
-    private String password;
-    private int loginAtemtsLeft;
-=======
     //klases laukiem jābūt "private"
     String login;
     String password;
     int loginAtemtsLeft;            //typo
->>>>>>> origin/master
     boolean blocked;
 
     public User(String login, String password) {

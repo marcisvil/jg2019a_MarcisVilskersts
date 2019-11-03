@@ -1,5 +1,5 @@
 package lv.jg.lesson5;
-
+//trukst piemēra, kur darbinieki ir dažādi
 public class EmployeeTest {
 
     public static void main(String[] args) {

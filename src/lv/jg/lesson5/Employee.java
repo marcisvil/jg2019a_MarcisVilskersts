@@ -2,10 +2,12 @@ package lv.jg.lesson5;
 
 import java.util.Objects;
 
+//lietojam ctrl + alt + l
 public class Employee {
 
-    private String contactNumber;
+    private String contactNumber;  //typo, jābut contractNumber
     private double salary;
+    //visiem laukiem ir jābūt private
     Department department;
 
     public Employee(String contactNumber, double salary, Department department){
@@ -35,11 +37,13 @@ public class Employee {
         if (this == object) return true;
         if (object == null || this.getClass() != object.getClass()) return false;
         Employee employee = (Employee) object;
+        //contractNumber - būs unikals katram objektam. ta kā ar to būs gana
         return this.contactNumber.equals(employee.contactNumber)&&this.salary==employee.salary&&this.department.equals(employee.department);
     }
 
     @Override
     public int hashCode() {
+        //contractNumber - būs unikals katram objektam. ta kā ar to būs gana
         return Objects.hash(salary, contactNumber, department);
     }
 

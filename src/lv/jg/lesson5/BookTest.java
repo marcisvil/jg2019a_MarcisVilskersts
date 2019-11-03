@@ -22,6 +22,8 @@ public class BookTest {
         }
     }
 
+    //trūkst pārbaude kur grāmatas nav vienadas
+
     public static void main(String[] args) {
 
         BookTest bookTest = new BookTest();
