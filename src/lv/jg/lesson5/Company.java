@@ -33,8 +33,6 @@ public class  Company {
         if (this == object) return true;
         if (object == null || this.getClass() != object.getClass()) return false;
         Company company = (Company) object;
-        //nez vai "name" ir vajadzīgs, jo logiski ņemot nezvai kompanijas ar dažādiem
-        // nosaukumiem un vienadiem numuriem varētu eksistēt
         return this.name.equals(company.name) && this.registrationNumber.equals(company.registrationNumber);
     }
 
