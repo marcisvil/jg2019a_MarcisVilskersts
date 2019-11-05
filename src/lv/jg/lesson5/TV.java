@@ -1,9 +1,10 @@
 package lv.jg.lesson5;
-
+//neizmanotts imports - dzēšam
 import org.omg.CORBA.TCKind;
 
 import java.util.Objects;
 
+//lietojam ctrl + alt + l
 public class TV {
 
     private int currentChannel;
@@ -18,7 +19,7 @@ public class TV {
     }
 
     public void nextChannel() {
-        if (turnedOn == true) {
+        if (turnedOn == true) { // rakstām šādi: "if (turnedOn)"
             currentChannel++;
         }
 
@@ -26,19 +27,19 @@ public class TV {
     }
 
     public void previousChannel() {
-        if (turnedOn == true) {
+        if (turnedOn == true) { //skatīt komentāru augstāk
             currentChannel--;
         }
     }
 
     public void increaseVolume() {
-        if (turnedOn == true) {
+        if (turnedOn == true) { //skatīt komentāru augstāk
             currentVolumeLevel++;
         }
     }
 
     public void decreaseVolume() {
-        if (turnedOn == true) {
+        if (turnedOn == true) {//skatīt komentāru augstāk
             currentVolumeLevel--;
         }
     }

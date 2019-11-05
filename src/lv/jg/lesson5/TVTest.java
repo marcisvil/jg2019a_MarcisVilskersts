@@ -1,5 +1,5 @@
 package lv.jg.lesson5;
-
+//Ok
 public class TVTest {
 
     public void testIfTurnedOffTvCantBeSwitched() {

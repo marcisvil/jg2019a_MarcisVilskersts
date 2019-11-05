@@ -5,6 +5,7 @@ import java.util.Objects;
 public class Department {
 
     private String name;
+    //visiem laukiem ir jābūt private
     Company company;
 
     public Department(String name, Company company){

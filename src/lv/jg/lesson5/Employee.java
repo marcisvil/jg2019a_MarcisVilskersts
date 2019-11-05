@@ -2,10 +2,12 @@ package lv.jg.lesson5;
 
 import java.util.Objects;
 
+//lietojam ctrl + alt + l
 public class Employee {
 
-    private String contactNumber;
+    private String contactNumber;  //typo, jābut contractNumber
     private double salary;
+    //visiem laukiem ir jābūt private
     Department department;
 
     public Employee(String contactNumber, double salary, Department department){

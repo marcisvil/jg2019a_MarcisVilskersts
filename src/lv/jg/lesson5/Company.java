@@ -2,7 +2,7 @@ package lv.jg.lesson5;
 
 import java.util.Objects;
 
-public class Company {
+public class  Company {
 
     private String name;
     private String registrationNumber;
