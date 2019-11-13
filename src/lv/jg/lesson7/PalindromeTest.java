@@ -1,5 +1,7 @@
 package lv.jg.lesson7;
 
+//Ok
+//Labs tests
 public class PalindromeTest {
 
     public void test(){

@@ -1,5 +1,6 @@
 package lv.jg.lesson7;
 
+//OK
 public class Palindrome {
 
     public boolean isPalindrome(String[] array) {
