@@ -1,5 +1,8 @@
 package lv.jg.lesson6;
 
+// katrs testa gadījuma ir jāveido ar jaunu - "tīru" objektu
+// testam ir jābūt bez parametriem
+// visi nepieciešamie dati tiek aprakstīt un salikti tieši testā pašā (testa metodē)
 public class NumberServiceTest {
 
     public void test() {
@@ -8,6 +11,7 @@ public class NumberServiceTest {
 
         int expectedResultRange = 21;
         int expectedEvenNumberCount = 4;
+
 
         int actualResultRange = victim.sumInRange(6, 8);
         int actualResultEvenNumberCount = victim.getEvenNumberCount(14, 7);

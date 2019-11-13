@@ -31,6 +31,8 @@ public class Car {
     }
 
     public boolean isDriving() {
+        //izmantojam vienkāršāku pierakstu
+        //return currentSpeed > 0
         if (currentSpeed == 0) {
             return false;
         } else {
@@ -39,6 +41,8 @@ public class Car {
     }
 
     public boolean canAccelerate(){
+        //izmantojam vienkāršāku pierakstu
+        //return currentSpeed == maxSpeed
         if (currentSpeed == maxSpeed){
             return false;
         }else {
