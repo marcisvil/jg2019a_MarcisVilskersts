@@ -1,12 +1,11 @@
 package lv.jg.lesson4;
 
-//Ok
 public class User {
 
-    //klases laukiem jābūt "private"
-    String login;
-    String password;
-    int loginAtemtsLeft;            //typo
+    private String login;
+    private String password;
+    private int loginAtemtsLeft;
+
     boolean blocked;
 
     public User(String login, String password) {
@@ -34,9 +33,9 @@ public class User {
         return loginAtemtsLeft;
     }
 
-    public void removeAttemt() {   //typo, labaks nosaukums būtu "decreaseAttempts"
+    public void removeAttemt() {
         this.loginAtemtsLeft = loginAtemtsLeft - 1;
-        //šeit labak izmantot šo pieeju "this.loginAtemtsLeft--"
+
     }
 
 }
