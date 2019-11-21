@@ -1,5 +1,6 @@
 package lv.jg.lesson7;
 
+//šeit ir jābūt metodēm testSumArray(), testCreateArray() utt
 public class ArrayServiceTest {
 
     private void test() {

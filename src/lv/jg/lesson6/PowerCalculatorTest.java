@@ -1,5 +1,6 @@
 package lv.jg.lesson6;
 
+//skatīt iepriekšējost komentārus attiecībā uz testiem
 public class PowerCalculatorTest {
 
     public void test(){
@@ -11,6 +12,7 @@ public class PowerCalculatorTest {
         check(expectedResult, actualResult);
     }
 
+    //no metodes nosaukuma nav skaidrs testējamais scenārijs
     private void check(int expectedResult, int actualResult) {
 
         if (expectedResult == actualResult){

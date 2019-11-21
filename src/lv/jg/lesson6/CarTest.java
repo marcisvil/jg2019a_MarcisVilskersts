@@ -66,7 +66,7 @@ public class CarTest {
         outputResult(testName, expectedCarSpeed, actualCarSpeed);
     }
 
-    private void outputResultBoolean(String testName, boolean b) {
+    private void outputResultBoolean(String testName, boolean b) { //"b" slikts parametra nosaukums
         if (b) {
             System.out.println(testName + " test successful");
         } else {
