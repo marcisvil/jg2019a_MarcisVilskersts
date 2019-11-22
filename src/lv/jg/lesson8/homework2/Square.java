@@ -1,10 +1,12 @@
 package lv.jg.lesson8.homework2;
 
+//ctrl + alt + l
 public class Square extends AbstractShape{
 
     private String name;
     private double sideLength;
 
+    //"name" bija jābūt konstantei klasē, nav nepieciešams pievienot to ar konstruktoru
     public Square(String name, double sideLength) {
         this.name = name;
         this.sideLength = sideLength;

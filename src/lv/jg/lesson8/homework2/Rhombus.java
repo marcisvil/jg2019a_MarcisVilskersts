@@ -1,11 +1,13 @@
 package lv.jg.lesson8.homework2;
 
+//ctrl + alt + l
 public class Rhombus extends AbstractShape {
 
     private double sideLength;
     private double narrowAngle;
     private String name;
 
+    //"name" bija jābūt konstantei klasē, nav nepieciešams pievienot to ar konstruktoru
     public Rhombus(String name, double sideLength, double narrowAngle) {
         this.sideLength = sideLength;
         this.narrowAngle = narrowAngle;

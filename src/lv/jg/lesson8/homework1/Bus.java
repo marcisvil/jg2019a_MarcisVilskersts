@@ -2,6 +2,8 @@ package lv.jg.lesson8.homework1;
 
 import java.util.Objects;
 
+//OK
+//ctrl + alt + l
 public class Bus extends Car {
 
     private String name;

@@ -1,5 +1,6 @@
 package lv.jg.lesson8.homework3;
 
+//Ok
 public class SubtractionOperation implements MathOperation {
 
     @Override

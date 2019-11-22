@@ -2,6 +2,7 @@ package lv.jg.lesson8.homework1;
 
 import java.util.Objects;
 
+//OK
 public class Truck extends Car {
 
     private String name;
