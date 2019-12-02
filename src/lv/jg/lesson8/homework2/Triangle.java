@@ -1,5 +1,6 @@
 package lv.jg.lesson8.homework2;
 
+//ctrl + alt + l
 public class Triangle extends AbstractShape {
 
     private String name;
@@ -8,6 +9,7 @@ public class Triangle extends AbstractShape {
     private double sideC;
     private double halfPerimeter = (sideA+sideB+sideC)/2;
 
+    //"name" bija jābūt konstantei klasē, nav nepieciešams pievienot to ar konstruktoru
     public Triangle(String name, double sideA, double sideB, double sideC) {
         this.name = name;
         this.sideA = sideA;

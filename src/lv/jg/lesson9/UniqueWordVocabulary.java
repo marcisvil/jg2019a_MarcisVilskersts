@@ -11,12 +11,13 @@ public class UniqueWordVocabulary {
         uniqueWords.add(newWord);
     }
 
+    //metodei "get" ir jāatdod rezultāts, nevis jādrukā
     public void getUniqueWords() {
         System.out.println(uniqueWords.size());
     }
 
     public void printToConsole() {
-        uniqueWords.stream().forEach(word -> System.out.println(word));
+        uniqueWords.stream().forEach(word -> System.out.println(word)); //var īsāk: forEach(System.out::println)
     }
 
     public static void main(String[] args) {

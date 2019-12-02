@@ -10,6 +10,7 @@ public class ShapeTest {
         Circle circle = new Circle("Circle", 18.4);
         Rectangle rectangle = new Rectangle(12, 45, "Rectangle");
 
+        //šeit jāizmanto tips "Shape" nevis "AbstractShape"
         AbstractShape[] myShapes = {rhombus, triangle, square, circle, rectangle};
 
         for (AbstractShape shape: myShapes){

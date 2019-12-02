@@ -5,6 +5,7 @@ public class Circle extends AbstractShape {
     private String name;
     private double radius;
 
+    //"name" bija jābūt konstantei klasē, nav nepieciešams pievienot to ar konstruktoru
     public Circle(String name, double radius) {
         this.name = name;
         this.radius = radius;
