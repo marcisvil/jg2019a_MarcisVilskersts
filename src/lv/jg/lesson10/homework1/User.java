@@ -8,6 +8,8 @@ public class User {
     private int age;
 
     public User(String name, String lastName, int age) {
+
+        //šis pārbaudes labak iznest atsevišķā metodē
         if (lengthCheck(name) || lengthCheck(lastName)) {
             throw new ValidationException("Name and surname has to be 3 to 15 characters long");
         }

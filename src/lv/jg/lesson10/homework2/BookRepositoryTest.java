@@ -2,6 +2,7 @@ package lv.jg.lesson10.homework2;
 
 import java.util.List;
 
+//Ok
 public class BookRepositoryTest {
 
     public static void main(String[] args) {

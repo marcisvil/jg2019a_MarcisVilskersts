@@ -1,5 +1,6 @@
 package lv.jg.lesson10.homework1;
 
+//lietojam ctrl + alt + l
 public class UserValidationServiceTest {
 
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class UserValidationServiceTest {
     private static void shouldFailWhenAgeTooLarge() {
         boolean result = false;
         try {
+            //nav nepieciešams lokalais maingais "user"
             User user = new User("Peter", "Daugavvanags", 150);
 
         }catch (ValidationException va){
@@ -26,6 +28,7 @@ public class UserValidationServiceTest {
     private static void shouldFailWhenAgeTooSmall() {
         boolean result = false;
         try {
+            //nav nepieciešams lokalais maingais "user"
             User user = new User("Peter", "Daugavvanags", -1);
 
         }catch (ValidationException va){
@@ -38,6 +41,7 @@ public class UserValidationServiceTest {
     private static void shouldFailWhenNameOrSurnameTooLong() {
         boolean result = false;
         try {
+            //nav nepieciešams lokalais maingais "user"
             User user = new User("Peter", "Daugavvanags-Berzins", 15);
 
         }catch (ValidationException va){
@@ -50,6 +54,7 @@ public class UserValidationServiceTest {
     private static void shouldFailWhenNameOrSurnameTooShort() {
         boolean result = false;
         try {
+            //nav nepieciešams lokalais maingais "user"
             User user = new User("Pe", "Berzins", 15);
 
         }catch (ValidationException va){

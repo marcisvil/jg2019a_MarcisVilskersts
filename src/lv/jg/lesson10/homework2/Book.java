@@ -2,6 +2,7 @@ package lv.jg.lesson10.homework2;
 
 import java.util.Objects;
 
+//Ok
 public class Book {
 
     private String id;
